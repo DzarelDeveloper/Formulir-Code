@@ -2,6 +2,11 @@
 
 Repositori ini berisi formulir web yang memungkinkan pengguna untuk mengirimkan permintaan kode yang akan diteruskan ke dua grup Telegram: satu privat (dengan email) dan satu publik (tanpa email). Berikut adalah panduan untuk mengatur dan menggunakan formulir ini.
 
+## Demo
+Lihat hasil langsung dari formulir ini dengan mengklik tombol berikut:
+
+[![View Result](https://img.shields.io/badge/View%20Result-Click%20Here-blue?style=for-the-badge)](https://yourcode01010.netlify.app/)
+
 ## Fitur
 - Formulir dua bahasa (Indonesia dan Inggris)
 - Validasi input
