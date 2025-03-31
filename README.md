@@ -30,7 +30,7 @@ Repositori ini berisi formulir web yang memungkinkan pengguna untuk mengirimkan 
 3. Dapatkan ID grup:
   - Kalau kamu butuh ID ini untuk bot (misalnya pakai getUpdates atau sendMessage), pastikan bot sudah ditambahkan ke grup dan punya izin admin. Setelah dapat ID-nya, gunakan seperti ini di API:
     ```
-   https://api.telegram.org/bot(BOT-TOKENMU)/getUpdates
+      https://api.telegram.org/bot(BOT-TOKENMU)/getUpdates
     ```
    - Catat ID grup (contoh: `-1002450587276` untuk privat, `-1002281623446` untuk publik)
 
