@@ -37,8 +37,8 @@ Repositori ini berisi formulir web yang memungkinkan pengguna untuk mengirimkan 
 ### 3. Mengatur Kode
 1. Clone repositori ini:
 ```bash
-git clone <url-repositori-anda>
-cd <nama-folder>
+git clone https://github.com/DzarelDeveloper/Formulir-Code/
+cd Formulir-Code
 ```
 2. Buka file `script.js` dan modifikasi bagian berikut:
 ```javascript
