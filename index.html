@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Permintaan Kode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="languageModal">
+        <div class="modal-content">
+            <h2>Pilih Bahasa / Select Language</h2>
+            <div class="language-option" onclick="selectLanguage('id')">
+                <img src="https://flagcdn.com/w40/id.png" alt="Indonesian Flag"> Indonesia
+            </div>
+            <div class="language-option" onclick="selectLanguage('en')">
+                <img src="https://flagcdn.com/w40/gb.png" alt="English Flag"> English
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="nav-container">
+            <a href="#" id="formLink" onclick="showForm()"></a>
+            <a href="#" id="aboutLink" onclick="showAbout()"></a>
+            <span class="indicator"></span>
+        </div>
+    </header>
+
+    <div class="content" id="content">
+        <div id="formSection">
+            <h2 id="formTitle"></h2>
+            <form id="requestForm">
+                <div class="form-group">
+                    <label for="name" id="nameLabel"></label>
+                    <input type="text" id="name" name="name" required>
+                    <span class="error" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email" id="emailLabel"></label>
+                    <input type="email" id="email" name="email" required>
+                    <span class="error" id="emailError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="request" id="requestLabel"></label>
+                    <textarea id="request" name="request" rows="5" required></textarea>
+                    <span class="error" id="requestError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="links" id="linksLabel"></label>
+                    <input type="url" id="links" name="links" placeholder="https://example.com">
+                </div>
+                <button type="submit" id="submitButton"></button>
+            </form>
+            <div id="response"></div>
+        </div>
+
+        <div id="about">
+            <h2 id="aboutTitle"></h2>
+            <p id="aboutText"></p>
+            <a href="https://t.me/yourcodeidea" target="_blank" class="telegram-button" id="telegramLink"></a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
