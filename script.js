@@ -13,9 +13,9 @@ const requestError = document.getElementById('requestError');
 const content = document.getElementById('content');
 const languageModal = document.getElementById('languageModal');
 
-const BOT_TOKEN = '8197646932:AAHQj0lFZlsan-dxgre1mJt9rc5_CzZNhyg'; // bot token kamu - pastikan bot di tambahkan kedua group dibawah ini dan jadikan bot sebagai admin,agar bot dapat mengirim hasil formulir nya
-const CHAT_ID_1 = '-1002450587276'; // Untuk ID Group Yang mengirim form (dengan email) - ( group Private mu)
-const CHAT_ID_2 = '-1002281623446'; // Untuk ID Group Yang  mengirim fonm (tanpa email) - ( Group Publish Untuk anggota )
+const BOT_TOKEN = 'YOUR_BOT_TOKEN'; // bot token kamu - pastikan bot di tambahkan kedua group dibawah ini dan jadikan bot sebagai admin,agar bot dapat mengirim hasil formulir nya
+const CHAT_ID_1 = 'YOUR_CHAT_ID1'; // Untuk ID Group Yang mengirim form (dengan email) - ( group Private mu)
+const CHAT_ID_2 = 'YOUR_CHAT_ID2'; // Untuk ID Group Yang  mengirim fonm (tanpa email) - ( Group Publish Untuk anggota )
 
 const translations = {
     id: {
@@ -189,4 +189,5 @@ window.addEventListener('resize', () => {
     } else {
         updateIndicator(aboutLink);
     }
+
 });
